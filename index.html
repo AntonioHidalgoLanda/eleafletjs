@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html><html lang="en-GB">
   <head>
     <script type="text/javascript" src="https://unpkg.com/@zxing/library@latest/umd/index.min.js"></script>
     <script type="text/javascript" src="./gtin_dictionary.js"></script>
@@ -27,7 +27,8 @@
         <pre><code id="result"></code></pre>
 
       </section>
-      <script>
+    </main>
+    <script>
       // Frontend controller
       window.addEventListener('load', function () {
             let selectedDeviceId;
@@ -82,7 +83,6 @@
                 console.error(err)
               })
           })
-      </script>
-    </main>
+    </script>
   </body>
 </html>
